@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Base theme required by ActivityCompat. Compose overrides everything. -->
-    <style name="Theme.TaskFinisher" parent="android:Theme.Material.NoTitleBar">
+    <!-- Base theme for the app. Compose overrides most UI, but this sets the window background -->
+    <style name="Theme.TaskFinisher" parent="android:Theme.Material.NoActionBar">
         <item name="android:windowBackground">@color/background</item>
         <item name="android:statusBarColor">@color/background</item>
         <item name="android:navigationBarColor">@color/surface</item>
